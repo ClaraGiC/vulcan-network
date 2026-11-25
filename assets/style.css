@@ -219,3 +219,4 @@ main{flex:1}
 .ticks{margin:8px 0 10px;padding-left:20px}
 .ticks li{margin:4px 0}
 .steps .ticks li{display:list-item;counter-increment:none;grid-template-columns:none;list-style:disc}.steps .ticks li::before{content:none;display:none}.steps .ticks{list-style:disc}
+.person-link{display:flex;flex-direction:column;align-items:center;text-decoration:none;color:inherit}.person-link:hover h3{color:var(--rust)}.person-link:hover .avatar{outline:3px solid var(--tawny);outline-offset:2px}
