@@ -44,11 +44,19 @@ All photos come from Pixabay (Pixabay Content License: free to use, no credit re
 | `assets/img/species/bearded.jpg` | Bearded vulture | https://pixabay.com/photos/bird-bearded-vulture-ornithology-7365012/ |
 | `assets/img/photos/griffon-flying.jpg` | Griffon vulture soaring, Extremadura | https://pixabay.com/photos/bird-spain-nature-flying-5077023/ |
 | `assets/img/photos/bearded-flying.jpg` | Bearded vulture flying | https://pixabay.com/photos/bearded-vulture-bird-animal-flying-6389342/ |
-| `assets/img/photos/griffon-nest.jpg` | Griffon vulture on its nest | https://pixabay.com/photos/vulture-bird-birds-nest-zoo-7136568/ |
+| `assets/img/photos/vulture-nest.jpg` | Adult vulture with chicks in the nest | https://pixabay.com/photos/animals-bird-nest-birds-feathers-1851641/ |
+| `assets/img/photos/griffon-portrait.jpg` | Griffon vulture portrait | https://pixabay.com/photos/vulture-animal-bird-9483838/ |
+| `assets/img/photos/carcass.jpg` | Animal skeleton on dry ground | https://pixabay.com/photos/body-skeleton-animal-desert-1474290/ |
 | `assets/img/photos/cinereous-pair.jpg` | Two cinereous vultures | https://pixabay.com/photos/eurasian-black-vultures-vultures-7407806/ |
 | `assets/img/photos/wind-turbines.jpg` | Wind turbines in a mountain landscape | https://pixabay.com/photos/wind-turbine-2244222/ |
 
 News photos are in `assets/img/news/` and headshots in `assets/img/people/` (already included). The Morella photos are © weyrichfoto.
+
+## Partner logos
+
+Save each logo as a PNG (transparent background, about 400 px wide) in `assets/img/partners/` under these names. A logo appears on the People page as soon as its file exists.
+
+`bspb.png`, `cefe.png`, `ebd-csic.png`, `grefa.png`, `green-balkans.png`, `ilia.png`, `ibm.png`, `rewilding-portugal.png`, `ub.png`
 
 ## Newsletter form
 

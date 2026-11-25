@@ -202,3 +202,11 @@ main{flex:1}
 @media (max-width:900px){.hero-split{grid-template-columns:1fr}.partner-list{grid-template-columns:1fr 1fr}}
 @media (max-width:560px){.news-item,.news-full{grid-template-columns:1fr}.partner-list{grid-template-columns:1fr}}
 .foot-meta a{color:var(--tawny)}.foot-meta a:hover{color:var(--cream)}
+
+/* v16 */
+.hero-split{grid-template-columns:minmax(0,1.7fr) minmax(0,1fr) !important}
+.hero-split .side-photo{max-width:400px;justify-self:end;width:100%}
+.split .prose h2,.prose>h2{margin-bottom:28px}
+.plogo{height:64px;display:flex;align-items:center;margin-bottom:10px}
+.plogo img{max-height:64px;max-width:180px;object-fit:contain}
+@media (max-width:900px){.hero-split .side-photo{justify-self:start}}
