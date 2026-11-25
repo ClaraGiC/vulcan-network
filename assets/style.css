@@ -210,3 +210,7 @@ main{flex:1}
 .plogo{height:64px;display:flex;align-items:center;margin-bottom:10px}
 .plogo img{max-height:64px;max-width:180px;object-fit:contain}
 @media (max-width:900px){.hero-split .side-photo{justify-self:start}}
+
+.plogo img{max-height:72px;max-width:190px}
+.people-grid.g4 .avatar{width:112px;height:112px}
+@media (max-width:1060px){.people-grid.g4{grid-template-columns:repeat(2,1fr)}}

@@ -9,7 +9,7 @@ The site is plain HTML and CSS. It needs no build step, so GitHub Pages can serv
 | File | Tab |
 |---|---|
 | `index.html` | Home |
-| `about.html` | About |
+| `about.html` | Redirects to the About section on the home page |
 | `research.html` | Research |
 | `species.html` | Species & data |
 | `people.html` | People |
@@ -48,15 +48,13 @@ All photos come from Pixabay (Pixabay Content License: free to use, no credit re
 | `assets/img/photos/griffon-portrait.jpg` | Griffon vulture portrait | https://pixabay.com/photos/vulture-animal-bird-9483838/ |
 | `assets/img/photos/carcass.jpg` | Animal skeleton on dry ground | https://pixabay.com/photos/body-skeleton-animal-desert-1474290/ |
 | `assets/img/photos/cinereous-pair.jpg` | Two cinereous vultures | https://pixabay.com/photos/eurasian-black-vultures-vultures-7407806/ |
-| `assets/img/photos/wind-turbines.jpg` | Wind turbines in a mountain landscape | https://pixabay.com/photos/wind-turbine-2244222/ |
+| `assets/img/photos/village-aerial.jpg` | Aerial view of a village and farmland | https://pixabay.com/photos/habitat-aerial-view-village-5159901/ |
 
 News photos are in `assets/img/news/` and headshots in `assets/img/people/` (already included). The Morella photos are © weyrichfoto.
 
 ## Partner logos
 
-Save each logo as a PNG (transparent background, about 400 px wide) in `assets/img/partners/` under these names. A logo appears on the People page as soon as its file exists.
-
-`bspb.png`, `cefe.png`, `ebd-csic.png`, `grefa.png`, `green-balkans.png`, `ilia.png`, `ibm.png`, `rewilding-portugal.png`, `ub.png`
+Partner logos are in `assets/img/partners/` (already included). To add a partner, save its logo there as a PNG and add a line to the partner list in `people.html`.
 
 ## Newsletter form
 
