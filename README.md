@@ -58,7 +58,7 @@ Partner logos are in `assets/img/partners/` (already included). To add a partner
 
 ## Newsletter form
 
-The sign-up form is a design only. It does not send anything yet. To make it work, connect it to a newsletter service (for example Mailchimp, Brevo or Buttondown) and paste that service's form address into the `action` of each `<form>`.
+The Subscribe button opens an email in the visitor's own email app, addressed to the contact email (set in the `data-to` attribute of each newsletter form). The visitor then sends it. To use a newsletter service later (for example Mailchimp, Brevo or Buttondown), replace the form with the service's sign-up form.
 
 ## Palette
 

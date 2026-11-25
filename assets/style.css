@@ -214,3 +214,8 @@ main{flex:1}
 .plogo img{max-height:72px;max-width:190px}
 .people-grid.g4 .avatar{width:112px;height:112px}
 @media (max-width:1060px){.people-grid.g4{grid-template-columns:repeat(2,1fr)}}
+
+.card-dot,.card-ring{display:none}
+.ticks{margin:8px 0 10px;padding-left:20px}
+.ticks li{margin:4px 0}
+.steps .ticks li{display:list-item;counter-increment:none;grid-template-columns:none;list-style:disc}.steps .ticks li::before{content:none;display:none}.steps .ticks{list-style:disc}
