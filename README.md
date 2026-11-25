@@ -46,8 +46,9 @@ All photos come from Pixabay (Pixabay Content License: free to use, no credit re
 | `assets/img/photos/bearded-flying.jpg` | Bearded vulture flying | https://pixabay.com/photos/bearded-vulture-bird-animal-flying-6389342/ |
 | `assets/img/photos/griffon-nest.jpg` | Griffon vulture on its nest | https://pixabay.com/photos/vulture-bird-birds-nest-zoo-7136568/ |
 | `assets/img/photos/cinereous-pair.jpg` | Two cinereous vultures | https://pixabay.com/photos/eurasian-black-vultures-vultures-7407806/ |
+| `assets/img/photos/wind-turbines.jpg` | Wind turbines in a mountain landscape | https://pixabay.com/photos/wind-turbine-2244222/ |
 
-News photos go in `assets/img/news/` (`ghent-workshop-2025.jpg`, `morella-2026.jpg`) and headshots in `assets/img/people/`.
+News photos are in `assets/img/news/` and headshots in `assets/img/people/` (already included). The Morella photos are © weyrichfoto.
 
 ## Newsletter form
 

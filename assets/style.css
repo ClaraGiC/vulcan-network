@@ -180,3 +180,25 @@ main{flex:1}
 .side-photo{margin:0}
 .side-photo .photo{border-radius:var(--radius)}
 .page-hero .lead{max-width:72ch}
+
+/* v15: news media, people, partners, about split, spacing */
+.news-item{display:grid;grid-template-columns:220px 1fr;gap:20px;align-items:start}
+.news-full{grid-template-columns:300px 1fr}
+.news-media{display:flex;flex-direction:column;gap:8px}
+.news-media img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:8px;background:var(--sand);display:block}
+.news-media .credit{margin:0}
+.news-body{display:flex;flex-direction:column;gap:8px}
+.news-body p{margin:0}
+.thumb{display:none}
+.people-grid .person{align-items:center;text-align:center;padding:28px 20px}
+.avatar{width:128px;height:128px;border-radius:50%;background:var(--sand);margin-bottom:10px;overflow:hidden;flex-shrink:0}
+.partner-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.partner-list li{background:var(--white);border:1px solid var(--line);border-radius:10px;padding:16px 18px;display:flex;flex-direction:column;gap:2px}
+.partner-list span{font-size:14px;color:var(--muted)}
+.hero-split{display:grid !important;grid-template-columns:1.15fr 1fr;gap:48px;align-items:center}
+.hero-split .side-photo img{aspect-ratio:4/3}
+.hero-split figcaption{margin-top:8px}
+.prose h2{margin-bottom:18px}
+@media (max-width:900px){.hero-split{grid-template-columns:1fr}.partner-list{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.news-item,.news-full{grid-template-columns:1fr}.partner-list{grid-template-columns:1fr}}
+.foot-meta a{color:var(--tawny)}.foot-meta a:hover{color:var(--cream)}
